@@ -2,7 +2,7 @@
 set -o errexit #abort if any command fails
 
 deploy_directory=${GIT_DEPLOY_DIR:-_site}
-deploy_branch=${GIT_DEPLOY_BRANCH:-gh-pages}
+deploy_branch=${GIT_DEPLOY_BRANCH:-fuck}
 
 #if no user identity is already set in the current git environment, use this:
 default_username=${GIT_DEPLOY_USERNAME:-greendius@gmail.com}
