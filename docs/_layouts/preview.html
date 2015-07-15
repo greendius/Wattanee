@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+      {{ page.title }} &middot; วัดตานีนรสโมสร
+    </title>
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/docs.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/plugins/slick/slick.css"/>
+<!--    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/plugins/pushy/css/pushy.css"/>-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/img/apple-touch-icon-precomposed.png">
+    <link rel="icon" href="{{ site.baseurl }}/favicon.ico">
+  </head>
+
+  <body class="{{ page.layout }}">
+
+    <div class="docs-preview-menu">
+      <nav class="docs-top-menu-secondary">
+        <a {% if page.path contains 'front' %}class="active"{% endif %} href="{{ site.baseurl }}/preview/front/">Front</a>
+        <a {% if page.path contains 'page' %}class="active"{% endif %} href="{{ site.baseurl }}/preview/page/">Page</a>
+        <a {% if page.path contains 'post' %}class="active"{% endif %} href="{{ site.baseurl }}/preview/post/">Post</a>
+      </nav>
+      <nav class="docs-top-menu">
+        <a {% if page.path contains 'styleguide' %}class="active"{% endif %} href="{{ site.baseurl }}/styleguide/logo/">Styleguide</a>
+        <a {% if page.path contains 'preview' %}class="active"{% endif %} href="{{ site.baseurl }}/preview/front">Site Preview</a>
+        <a {% if page.path contains 'NEEDFIX' %}class="active"{% endif %} href="{{ site.baseurl }}/NEEDFIX">Admin Manual Guide</a>
+      </nav>
+    </div>
+
+        {{ content }}
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script> -->
+    <script type="text/javascript" src="{{ site.baseurl }}/plugins/slick/slick.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/plugins/pushy/js/pushy.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
+
+  </body>
+</html>

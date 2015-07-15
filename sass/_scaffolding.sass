@@ -1,0 +1,124 @@
+// Scaffolding
+// =====
+// Basic instruction of any webpage
+//
+// - html
+// - body
+// - headings
+// - links
+// - lists
+// - Inline elements
+// - hr
+
+html
+  // font size defined by typeplate-styles
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+  background: $third-background-color
+
+*, *:before,
+*:after
+  -webkit-box-sizing: inherit
+  -moz-box-sizing: inherit
+  box-sizing: inherit
+
+body
+  +font-feature-settings("kern", "liga", "pnum")
+  -webkit-font-smoothing: antialiased
+  color: $base-font-color
+  font-family: $base-font-family
+  font-size: 1rem
+  line-height: $base-line-height
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6
+  margin: 0 0 $small-spacing
+  line-height: $heading-line-height
+  font-family: $heading-font-family
+  color: $heading-font-color
+  font-weight: normal
+
+// We use px in font size because of Thai custom font display correctly in px.
+// font weight as well.
+h1
+  //@extend .typl8-tera
+  font-size: 62px
+  //font-weight: normal
+  line-height: .8
+
+h2
+  //@extend .typl8-giga
+  font-size: 54px
+
+h3
+  //@extend .typl8-mega
+  font-size: 38px
+
+h4
+  //@extend .typl8-alpha
+  font-size: 34px
+  //font-weight: normal
+
+h5
+  //@extend .typl8-beta
+  font-size: 26px
+  //font-weight: normal
+
+h6
+  font-size: 26px
+  //font-weight: normal
+  color: lighten($heading-font-color, 20%)
+
+p
+  // Set in typeplate
+  //  p {
+  //    margin: auto auto $typl8-indent-val;
+  //    @if $typl8-paragraph-spacing == false {
+  //      & + p {
+  //        text-indent: $typl8-indent-val;
+  //        margin-top: -$typl8-indent-val;
+  //      }
+  //    }
+  //  }
+
+a
+  color: $action-color
+  text-decoration: none
+  transition: $base-color-transition
+
+  &:active,
+  &:focus,
+  &:hover
+    color: darken($action-color, 15%)
+  &:active,
+  &:focus
+    outline: none
+
+  .icon
+    margin: 0 .3rem
+
+hr
+  border-bottom: $base-border
+  border-left: none
+  border-right: none
+  border-top: none
+  margin: $base-spacing 0
+
+img,
+picture
+  margin: 0
+  max-width: 100%
+
+abbr,
+acronym
+  cursor: help
+  border-bottom: 1px dotted $gray
+
+.lead
+  font-size: $large-font-size * 1.2

@@ -1,0 +1,42 @@
+// Logo
+// =====
+.site-logo
+  padding: $base-spacing 0 0 0
+  text-align: center
+  border-top: 1px solid $light-gray
+
+  a
+    display: block
+
+    width: 302px
+    height: 86px
+
+    margin: auto
+
+    text-align: center
+
+  .site-title
+    @extend h5
+    font-weight: normal
+    color: $brand-primary
+
+    span
+      @extend .site-title
+
++susy-breakpoint($tablet, 12)
+  .site-logo
+    padding: $large-spacing 0
+
+    a
+      width: 302px
+      height: 86px
+      text-indent: -9999em
+      background: url('../img/wattanee-logo.png') no-repeat top center
+
+    span
+      display: block
+      text-indent: -9999em
+
++susy-breakpoint($tablet, 12)
+  .site-logo
+    border-top: 0

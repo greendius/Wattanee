@@ -1,0 +1,26 @@
+// Post
+// =====
++susy-breakpoint($tablet, 12)
+  .post
+    .sidebar
+      +break
+      +span(12)
+      //+push(1)
+
+    .content
+      +span(12)
+      //+push(1)
+
++susy-breakpoint($desktop, 12)
+  .post
+    .sidebar
+      +nobreak
+      +span(last 3)
+
+    .content
+      +span(9)
+      //+push(1)
+
+      .post-content
+        +span(7 of 9)
+        +push(2 of 9)

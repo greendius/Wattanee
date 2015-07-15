@@ -1,0 +1,259 @@
+// Document Theme
+// =====
+html,
+body
+  height: 100%
+
+#page-wrapper
+  display: table
+  table-layout: fixed
+
+  height: 100%
+  width: 100%
+
+  font-family: 'Bitter', serif
+
+#sidebar
+  display: table-cell
+  float: none
+
+  width: 250px
+
+  padding: 3rem 1.5rem
+  height: 100vh
+  vertical-align: top
+
+  background-color: #111
+
+#content
+  display: table-cell
+  float: none
+  padding: 3rem
+
+  .page-title
+    margin-bottom: 1em
+    border-bottom: 5px solid $base-border-color
+
+.docs-top-menu
+  float: right
+
+  a
+    padding: .3rem .7rem
+    font-size: 14px
+    //border-right: $base-border
+
+  a:last-child
+    //border-right: 0
+
+  .active
+    color: #fff
+    background-color: $action-color
+    border-radius: 2px
+    //border: 0
+
+.docs-header
+  text-align: left
+
+  .masthead-logo
+    @extend h5
+    font-size: 32px
+    color: $brand-primary
+
+.docs-menu
+  margin: 1rem 0
+  font-size: .85rem
+
+  h4, h5, h6
+    color: lighten($heading-font-color, 20%)
+    line-height: .8em
+
+  a
+    display: block
+    padding: .3em
+
+    margin-left: .5rem
+
+    font-family: 'Bitter', serif
+    font-size: 13px
+    color: #aaa
+
+    &:hover,
+    &:focus,
+      color: $action-color
+
+  .selected
+    color: rgba($action-color, .8)
+
+.docs-footer
+  margin: 2rem 0
+  padding: 2rem 0
+
+  font-size: 13px
+  color: #555
+
+  border-top: 1px solid #222
+
+.front-nav
+  margin: 3rem 0
+  .btn
+    padding: 1.5rem 4rem
+    margin: 1rem
+
+    font-size: 21px
+    font-family: 'Open Sans', sans-serif
+    font-weight: normal
+
+// Preview
+.docs-preview-menu
+  position: fixed
+  top: 0
+  left: 0
+
+  z-index: 9999
+
+  width: 100%
+  padding: 1rem
+
+  background: #111
+
+  .docs-top-menu
+    width: 50%
+    text-align: right
+
+  .docs-top-menu-secondary
+    @extend .docs-top-menu
+    float: left
+    width: 50%
+    text-align: left
+
+// We want to hide code example in preview
+.preview
+  .docs-example
+    padding-top: 7rem
+    border: 0
+
+  .highlight
+    display: none
+
+
+// # Markdown
+// =====
+.markdown-body
+  font-family: 'Bitter', serif
+  font-size: 1rem
+
+  h1, h2, h3, h4, h5, h6
+    margin-top: 4rem
+    font-family: inherit
+    font-weight: bold
+
+  // hide 'content' in toc
+  #contents
+    display: none
+
+  #markdown-toc
+    font-size: 1.3em
+
+  #markdown-toc > li:first-child
+    display: none
+
+.docs-example
+  position: relative
+  padding: 3.5rem 1rem 1rem 1rem
+  margin: 0
+
+  border: 1px solid #eee
+
+  border-top-left-radius: 3px
+  border-top-right-radius: 3px
+
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6
+    margin-top: 0
+    font-family: $heading-font-family
+    font-weight: inherit
+
+  *
+    font-family: $base-font-family
+
+  &::before
+    content: 'example'
+
+    position: absolute
+    top: 0
+    left: 0
+
+    padding: 1.5em
+
+    font-size: 12px
+    font-family: "Lucida Console", Monaco, monospace
+    //text-transform: uppercase
+    letter-spacing: 3px
+
+    color: #ccc
+
+.highlight
+  position: relative
+
+  pre
+    padding: 2.5rem 1rem 1rem 1rem !important
+    margin: 0
+
+  &::before
+    content: 'html'
+
+    position: absolute
+    top: 0
+    left: 0
+
+    padding: 1.5em
+
+    font-size: 12px
+    font-family: "Lucida Console", Monaco, monospace
+    //text-transform: uppercase
+    letter-spacing: 3px
+
+    color: #ccc
+
+
+// # Color palettes
+// =====
+.swatch
+  display: block
+  float: left
+
+  width: 10rem
+  height: 10rem
+
+  padding: 2rem
+  margin: .5rem
+
+  border-radius: .25rem
+
+  span
+    color: #fff
+
+.swatch-primary
+  background-color: $brand-primary
+
+.swatch-secondary
+  background-color: $brand-secondary
+
+.swatch-third
+  background-color: $brand-third
+
+.swatch-gray-lighter
+  background-color: $lighter-gray
+
+.swatch-gray-light
+  background-color: $light-gray
+
+.swatch-gray
+  background-color: $gray
+
+.swatch-gray-dark
+  background-color: $dark-gray
+
+.swatch-gray-darker
+  background-color: $darker-gray
+

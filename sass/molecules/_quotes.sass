@@ -1,0 +1,55 @@
+// Quotes
+// =====
+// Default quote
+blockquote
+  padding: .5rem $base-spacing
+  margin: 0 0 $small-spacing
+  font-size: $large-font-size
+  border-left: 1px solid $brand-primary
+
+  p
+    margin: 0
+
+// Banner Quote
+.banner-quote
+  padding: 2rem
+  margin-bottom: $base-spacing
+  background-color: $brand-secondary
+
+  blockquote
+    padding: .3rem 1rem
+
+    .banner-quote-header
+      @extend h5
+      margin: 0
+      font-style: normal
+      color: $brand-primary
+
+    .banner-quote-content,
+    .banner-quote-footer
+      @extend h5
+      margin: 0
+
+      font-size: 23px
+      font-style: normal
+
+      color: #fff
+
+    .banner-quote-footer
+      position: relative
+      text-align: right
+      opacity: .7
+
++susy-breakpoint($tablet, 12)
+  // Banner quote
+  .banner-quote
+
+    blockquote
+      padding: .5rem $large-spacing
+      max-width: 60%
+      margin: auto
+
+      .banner-quote-header
+        font-size: 1.5em
+
+

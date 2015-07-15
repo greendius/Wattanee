@@ -1,0 +1,42 @@
+// Grids
+// =====
+// Setting Susy grid
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: 1130px,
+  container-position: center,
+  columns: 4,
+  gutters: .25,
+  column-width: false,
+  global-box-sizing: content-box,
+  last-flow: to,
+  debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )
+);
+
+// Breakpoint vars
+//$phone: Mobile first
+$tablet: 641px; // min-width 40.063em
+$desktop: 1025px; // 64.063em
+$large: 1441px; // 90.063em
+
+//$column: modular-scale(3, 1em, $golden) !default;
+//$gutter: modular-scale(1, 1em, $golden) !default;
+//$grid-columns: 12 !default;
+//$max-width: auto !default;
+//$border-box-sizing: true !default;
+//$visual-grid: true;

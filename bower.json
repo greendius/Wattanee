@@ -1,0 +1,29 @@
+{
+  "name": "abstract",
+  "ignore": [
+    "docs/",
+    ".gitignore",
+    ".hound.yml",
+    ".scss-lint.yml",
+    "_config.yml",
+    "Gemfile",
+    "Gemfile.lock",
+    "Gruntfile.js",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "docs/bower_components",
+    "test",
+    "tests"
+  ],
+  "main": "sass/main.sass",
+  "dependencies": {
+    "primer-user-content": "https://github.com/primer/user-content.git#2.1.7"
+  },
+  "version": "0.0.0",
+  "authors": [
+    "greendius <greendius@gmail.com>"
+  ],
+  "description": "Strater files and styleguide",
+  "license": "MIT"
+}

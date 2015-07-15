@@ -1,0 +1,20 @@
+// Page template
+// =====
++susy-breakpoint($tablet, 12)
+  .page
+    .sidebar
+      +span(12)
+      //max-width: 165px
+      //margin-right: $small-spacing
+
+    .content
+      //+break
+
++susy-breakpoint($desktop, 12)
+  .page
+    .sidebar
+      +span(2)
+
+    .content
+      +span(6)
+      +push(1)

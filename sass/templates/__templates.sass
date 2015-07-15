@@ -1,0 +1,36 @@
+// Templates
+// =====
+@import 'page'
+@import 'post'
+
+
+// Container
+.container
+  +container
+  //outline: 1px dotted aqua
+
+// Row & Columns
+// =====
+.row
+  +break
+  margin-bottom: $base-spacing
+  //outline: 1px dotted red
+
+.row-mega
+  @extend .row
+  padding: 1rem 0
+
+.col
+  width: 100%
+  margin-bottom: $base-spacing
+  //outline: 1px dotted blue
+
+.content-panel
+  padding: $large-spacing 0
+
++susy-breakpoint($tablet, 12)
+  .col-half
+    +span(6 of 12)
+
+  .col-last
+    +span(last 6 of 12)

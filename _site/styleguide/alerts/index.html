@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+      Alerts &middot; วัดตานีนรสโมสร
+    </title>
+
+    <link rel="stylesheet" href="/css/docs.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/plugins/slick/slick.css"/>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed.png">
+    <link rel="icon" href="/favicon.ico">
+  </head>
+
+  <body class="default">
+
+    <div id="page-wrapper">
+
+      <aside id="sidebar">
+
+        <header class="docs-header">
+          <a href="/" class="masthead-logo">
+            วัดดตานีนรสโมสร
+          </a>
+        </header>
+
+        
+          <nav class="menu docs-menu">
+  <h5>Styleguide</h5>
+  <a class="menu-item " href="/styleguide/logo/">
+    Logo
+  </a>
+  <a class="menu-item " href="/styleguide/colors/">
+    Colors
+  </a>
+</nav>
+
+<nav class="menu docs-menu">
+  <a class="menu-item " href="/styleguide/overview/">
+    Overview
+  </a>
+  <a class="menu-item " href="/styleguide/header/">
+    Header
+  </a>
+  <a class="menu-item " href="/styleguide/footer/">
+    Footer
+  </a>
+  <a class="menu-item " href="/styleguide/navigation/">
+    Navigation
+  </a>
+  <a class="menu-item selected" href="/styleguide/alerts/">
+    Alerts[!]
+  </a>
+   <a class="menu-item " href="/styleguide/buttons/">
+    Buttons
+  </a>
+  <a class="menu-item " href="/styleguide/carousel/">
+    Carousel
+  </a>
+  <a class="menu-item " href="/styleguide/images/">
+    Images
+  </a>
+  <a class="menu-item " href="/styleguide/panels/">
+    Panels
+  </a>
+  <a class="menu-item " href="/styleguide/quotes/">
+    Quotes
+  </a>
+  <a class="menu-item " href="/styleguide/type/">
+    Type
+  </a>
+</nav>
+
+<nav class="menu docs-menu" style="display:none">
+  <h5>Styleguide</h5>
+  <a class="menu-item " href="/scaffolding/">
+    Scaffolding
+  </a>
+  <!-- <a class="menu-item " href="/layout/">
+    Layout
+  </a> -->
+  <a class="menu-item " href="/buttons/">
+    Buttons
+  </a>
+  <a class="menu-item " href="/forms/">
+    Forms
+  </a>
+  <a class="menu-item " href="/images/">
+    #Images
+  </a>
+  <a class="menu-item " href="/nav/">
+    Navigation
+  </a>
+  <a class="menu-item " href="/quotes/">
+    #Quotes
+  </a>
+  <a class="menu-item " href="/table/">
+    #Table
+  </a>
+  <a class="menu-item " href="/type/">
+    Type
+  </a>
+  <a class="menu-item " href="/utilities/">
+    Utilities
+  </a>
+</nav>
+
+<nav class="menu docs-menu" style="display:none">
+  <a class="menu-item selected" href="/alerts/">
+    Alerts
+  </a>
+    <a class="menu-item " href="/avatars/">
+    Avatars
+  </a>
+  <a class="menu-item " href="/blankslate/">
+    Blankslate
+  </a>
+  <a class="menu-item " href="/dropdown/">
+    #Dropdown
+  </a>
+<!--   <a class="menu-item " href="/states/">
+    States
+  </a> -->
+  <a class="menu-item " href="/tooltips/">
+    Tooltips
+  </a>
+</nav>
+
+        
+
+        <footer class="docs-footer">
+          Copyright Abstract 2015.<br>
+          Ver. 0.0.0.
+        </footer>
+
+      </aside>
+
+      <div id="content" class="container">
+        <nav class="docs-top-menu">
+          <a class="active" href="/styleguide/logo/">Styleguide</a>
+          <a  href="/preview/front">Site Preview</a>
+          <a  href="/NEEDFIX">Admin Manual Guide</a>
+        </nav>
+        <div class="markdown-body">
+
+  <h1 class="page-title">
+    Alerts
+  </h1>
+
+  <div class="markdown-body">
+    <!-- FIXME Need javascript for closing message -->
+
+<div class="alert-messages">
+  <div class="alert alert-warn">
+    <i class="icon fa fa-warning"></i>Javascript required
+  </div>
+</div>
+
+<h2 id="contents">Contents</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#contents" id="markdown-toc-contents">Contents</a></li>
+  <li><a href="#default" id="markdown-toc-default">Default</a></li>
+  <li><a href="#variations" id="markdown-toc-variations">Variations</a>    <ul>
+      <li><a href="#default-1" id="markdown-toc-default-1">Default</a></li>
+      <li><a href="#info" id="markdown-toc-info">Info</a></li>
+      <li><a href="#warn" id="markdown-toc-warn">Warn</a></li>
+      <li><a href="#error" id="markdown-toc-error">Error</a></li>
+    </ul>
+  </li>
+  <li><a href="#with-icon" id="markdown-toc-with-icon">With icon</a></li>
+  <li><a href="#dismiss" id="markdown-toc-dismiss">Dismiss</a></li>
+</ul>
+
+<h2 id="default">Default</h2>
+
+<div class="docs-example clearfix"><div class="alert">
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+</div></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<p>Add space from surrounding with <code>.alert-messages</code></p>
+
+<div class="docs-example clearfix"><div class="alert-messages">
+  <div class="alert">
+    พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+  </div>
+</div></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert-messages"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+    พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<h2 id="variations">Variations</h2>
+
+<h3 id="default-1">Default</h3>
+
+<div class="docs-example clearfix"><div class="alert">
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+</div></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<h3 id="info">Info</h3>
+
+<div class="docs-example clearfix"><div class="alert alert-info">
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+</div></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-info"</span><span class="nt">&gt;</span>
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<h3 id="warn">Warn</h3>
+
+<div class="docs-example clearfix"><div class="alert alert-warn">
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+</div></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-warn"</span><span class="nt">&gt;</span>
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<h3 id="error">Error</h3>
+
+<div class="docs-example clearfix"><div class="alert alert-error">
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+</div></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-error"</span><span class="nt">&gt;</span>
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<h2 id="with-icon">With icon</h2>
+
+<div class="docs-example clearfix"><div class="alert alert-with-icon">
+  <span class="icon"><i class="fa fa-info-circle"></i></span>
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+</div></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-with-icon"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-info-circle"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<h2 id="dismiss">Dismiss</h2>
+
+<p>Add a JavaScript enabled (via Crema) dismiss (close) icon on the right of any flash message.</p>
+
+<div class="docs-example clearfix"><div class="alert">
+<span class="alert-close"><i class="fa fa-close"></i></span>
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+</div></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"alert-close"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-close"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+
+  </div>
+
+</div>
+
+
+      </div>
+
+      <script src="/js/anchor.min.js"></script>
+      <script>
+        var selector = '.markdown-body h2, .markdown-body h3';
+        addAnchors(selector);
+      </script>
+
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+
+  </body>
+</html>

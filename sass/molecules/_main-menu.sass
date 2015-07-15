@@ -1,0 +1,35 @@
+// Main menu
+// =====
+// WP structure
+// nav.main-menu > ul > li > a
+// Mobile first
+.main-menu
+  display: none
+
+// Larger screen
++susy-breakpoint($tablet, 12)
+  .main-menu
+    display: block
+    margin-bottom: $large-spacing
+    border-bottom: 1px solid $primary-border-color
+
+    ul
+      margin: auto
+      text-align: center
+
+  .main-menu li
+    display: inline-block
+    padding: .2rem 1rem
+
+    a
+      font-family: $heading-font-family
+      font-size: 26px
+
+      color: $brown
+
+      &:hover,
+      &:focus
+        color: $brand-primary
+
+    &.selected a
+      color: $brand-secondary

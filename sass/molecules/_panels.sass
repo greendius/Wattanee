@@ -1,0 +1,63 @@
+// Panel
+// =====
+// Vars
+//$panel-font-color: $base-font-color
+
+//$panel-border-color: $base-border-color
+//$panel-border-radius: $base-border-radius
+
+$panel-background-color: #fff
+$panel-header-background: rgba( $brand-primary, .15 )
+$panel-border-color: $lighter-gray
+$panel-border-radius: $base-border-radius
+$panel-box-shadow: 0 0 1px 0 $primary-border-color
+
+// Panel
+.panel
+  position: relative
+  overflow: hidden
+
+  margin-bottom: $base-spacing
+
+  background: $panel-background-color
+
+  //border-radius: $panel-border-radius
+  box-shadow: $panel-box-shadow
+
+.panel-header
+  padding: $small-spacing
+
+  border-bottom: 1px solid $primary-border-color
+  -webkit-border-top-left-radius: $panel-border-radius
+  -webkit-border-top-right-radius: $panel-border-radius
+  -moz-border-radius-topleft: $panel-border-radius
+  -moz-border-radius-topright: $panel-border-radius
+  border-top-left-radius: $panel-border-radius
+  border-top-right-radius: $panel-border-radius
+
+  .panel-title
+    @extend h5
+    margin: 0
+
+.panel-footer
+  padding: 6px $small-spacing
+  font-size: 1em
+  border-top: 1px solid $panel-border-color
+
+.panel-body
+  padding: $small-spacing
+
+// Panel default style
+//.panel-default
+//  .panel-header
+//    background: $panel-header-background
+
++susy-breakpoint($tablet, 12)
+  .panel-header,
+    padding: $small-spacing $base-spacing
+
+  .panel-body
+    padding: $base-spacing
+
+  .panel-footer
+    padding: $small-spacing $base-spacing

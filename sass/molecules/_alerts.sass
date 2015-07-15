@@ -1,0 +1,60 @@
+// Alerts
+// =====
+// Vars
+$alert-font-color: $base-font-color
+$alert-background-color: $secondary-background-color
+$alert-border-color: $base-border-color
+$alert-border-radius: $base-border-radius
+// Info vars
+$alert-info-font-color: darken($info-color, 40%)
+$alert-info-background-color: $info-color
+$alert-info-border-color: darken($info-color, 10%)
+
+// Warn vars
+$alert-warn-font-color: darken($warn-color, 50%)
+$alert-warn-background-color: $warn-color
+$alert-warn-border-color: darken($warn-color, 20%)
+// Error vars
+$alert-error-font-color: darken($error-color, 40%)
+$alert-error-background-color: $error-color
+$alert-error-border-color: darken($error-color, 10%)
+
+
+// Default
+.alert-messages
+  margin: $base-spacing auto
+
+.alert
+  +border-top-radius($base-border-radius)
+  +border-right-radius($base-border-radius)
+  +border-bottom-radius($base-border-radius)
+  +border-left-radius($base-border-radius)
+
+  color: $alert-font-color
+  padding: $base-spacing
+  background-color: $alert-background-color
+  border: 1px solid $alert-border-color
+
+  p:last-child
+    margin-bottom: 0
+
+  .icon
+    margin-right: .5rem
+
+  .alert-close
+    float: right
+
+.alert-info
+  color: $alert-info-font-color
+  background-color: $alert-info-background-color
+  border-color: $alert-info-border-color
+
+.alert-warn
+  color: $alert-warn-font-color
+  background-color: $alert-warn-background-color
+  border-color: $alert-warn-border-color
+
+.alert-error
+  color: $alert-error-font-color
+  background-color: $alert-error-background-color
+  border-color: $alert-error-border-color

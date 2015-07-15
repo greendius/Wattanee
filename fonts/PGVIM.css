@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "PGVIM";
+  src: url('PGVIM.eot');
+  src: url('PGVIM.eot?#iefix') format('embedded-opentype'),
+  url('PGVIM.svg#PGVIM') format('svg'),
+  url('PGVIM.woff') format('woff'),
+  url('PGVIM.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

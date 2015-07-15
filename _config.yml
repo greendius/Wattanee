@@ -1,0 +1,18 @@
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  auto_ids: true
+
+permalink: pretty
+source: docs
+baseurl: ""
+
+version: 0.0.0
+
+sass:
+  sass_dir: ../
+  style: compressed
+
+github:
+  repo: http://greendius.github.io/wattanee/

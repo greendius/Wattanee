@@ -1,0 +1,95 @@
+// Main menu
+// =====
+// WP structure
+// nav.main-menu > ul > li > a
+// Mobile first
+.main-menu
+  display: none
+
+// Larger screen
++susy-breakpoint($tablet, 12)
+  .main-menu
+    display: block
+    margin-bottom: $large-spacing
+    border-bottom: 1px solid $primary-border-color
+
+    ul
+      margin: auto
+      text-align: center
+
+  .main-menu li
+    display: inline-block
+    padding: .2rem 1rem
+
+    a
+      font-family: $heading-font-family
+      font-size: 26px
+
+      color: $brown
+
+      &:hover,
+      &:focus
+        color: $brand-primary
+
+    &.selected a
+      color: $brand-secondary
+
+// Menu
+// =====
+// Side menu
+// nav > ul > li > a
+.side-menu
+  width: 100%
+  //max-width: 180px
+
+  .side-menu-title
+    border-bottom: 2px solid $primary-border-color
+
+.side-menu ul
+  padding: 0
+  list-style: disc inside
+  //outline: 1px dotted #ddd
+
+  li
+    margin-left: 0
+    font-size: .6em
+    //border-bottom: $base-border
+    //outline: 1px dotted orange
+
+    &:last-child
+      border-bottom: 0
+
+    &:hover
+      color: $action-color
+
+    a
+      display: inline-block
+      //padding: .5rem
+
+      //font-family: $heading-font-family
+      font-size: 1rem
+      //color: $action-color
+
+      //outline: 1px dotted aqua
+
+      &:hover,
+      &:focus
+        //color: $action-color
+
+// Post side menu
+.post-side-menu
+  @extend .panel
+  //max-width: 300px
+  padding: $base-spacing
+
+// Page side menu
+.page-side-menu li
+  border-bottom: 1px solid $primary-border-color
+
+  a
+    display: inline-block
+    padding: .5rem
+
+    font-family: $heading-font-family
+    font-size: 23px !important
+    color: $brown

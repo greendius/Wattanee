@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+      {{ page.title }} &middot; วัดตานีนรสโมสร
+    </title>
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/docs.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/plugins/slick/slick-theme.css"/> -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/plugins/SidebarTransitions/css/st.css" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/img/apple-touch-icon-precomposed.png">
+    <link rel="icon" href="{{ site.baseurl }}/favicon.ico">
+  </head>
+
+  <body class="{{ page.layout }}">
+
+    <div id="st-container" class="st-container">
+
+      <!-- content push wrapper -->
+      <div class="st-pusher">
+
+        <nav class="st-menu st-effect-3" id="menu-3">
+          <header class="masthead">
+            <div class="container">
+              <a href="{{ site.baseurl }}/" class="masthead-logo">
+                วัดตานีนรสโมสร
+              </a>
+            </div>
+          </header>
+
+          {% if page.path contains 'preview' %}
+            {% include sidenav.html %}
+          {% elsif page.path contains 'styleguide' %}
+            {% include sidenav-styleguide.html %}
+          {% else %}
+            {% include sidenav.html %}
+          {% endif %}
+
+          <footer class="footer">
+            Copyright Abstract {{ site.time | date: '%Y' }}.<br>
+            Ver. {{ site.version }}.
+          </footer>
+        </nav>
+
+        <div class="st-content"><!-- this is the wrapper for the content -->
+          <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+
+            <div id="content" class="main clearfix">
+              <div id="st-trigger-effects">
+                <button data-effect="st-effect-3">Push</button>
+              </div>
+
+              <nav class="masthead-nav">
+                <a {% if page.path contains 'preview' %}class="active"{% endif %} href="{{ site.baseurl }}/preview/front">Preview</a>
+                <a {% if page.path contains 'NEEDFIX' %}class="active"{% endif %} href="{{ site.baseurl }}/NEEDFIX">Admin manual</a>
+                <a {% if page.path contains 'styleguide' %}class="active"{% endif %} href="{{ site.baseurl }}/styleguide/logo/">Styleguide</a>
+              </nav>
+
+              {{ content }}
+
+            </div><!-- /main -->
+
+          </div><!-- /st-content-inner -->
+        </div><!-- /st-content -->
+
+      </div><!-- /st-pusher -->
+
+    </div><!-- /st-container -->
+
+      <script src="{{ site.baseurl }}/js/anchor.min.js"></script>
+      <script>
+        var selector = '.markdown-body h2, .markdown-body h3';
+        addAnchors(selector);
+      </script>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
+    <script src="{{ site.baseurl }}/plugins/SidebarTransitions/js/classie.js"></script>
+    <script src="{{ site.baseurl }}/plugins/SidebarTransitions/js/sidebarEffects.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
+
+  </body>
+</html>
