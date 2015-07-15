@@ -1,9 +1,2 @@
-.bundle/config
-bin/
-vendor/
 .sass-cache/
-vendor/
-.ruby-version
-
-node_modules/
-sassBak/
+.todo
