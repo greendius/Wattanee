@@ -2,3 +2,4 @@
 _site/
 .todo
 deploy.sh
+deploy_2.sh
