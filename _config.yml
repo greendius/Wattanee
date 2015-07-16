@@ -8,12 +8,12 @@ permalink: pretty
 source: docs
 
 # Local development
-baseurl: ""
-url: "" # the base hostname & protocol for your site
+# baseurl: ""
+# url: "" # the base hostname & protocol for your site
 
 # Publish
-#baseurl: "http://greendius.github.io/wattanee"
-#url: "http://greendius.github.io/wattanee" # the base hostname & protocol for your site
+baseurl: "http://greendius.github.io/wattanee"
+url: "http://greendius.github.io/wattanee" # the base hostname & protocol for your site
 
 version: 0.0.0
 
