@@ -16,77 +16,77 @@ $button-border-radius: $base-border-radius
 .button,
 .btn,
 *[role=button]
-  +appearance(none)
-  +user-select(none)
+	+appearance(none)
+	+user-select(none)
 
-  position: relative
+	position: relative
 
-  display: inline-block
-  padding: .5rem 1rem
+	display: inline-block
+	padding: .5rem 1rem
 
-  line-height: $button-line-height
-  vertical-align: middle
+	line-height: $button-line-height
+	vertical-align: middle
 
-  font-family: $base-font-family
-  font-size: $button-font-size
-  font-weight: bold
+	font-family: $base-font-family
+	font-size: $button-font-size
+	font-weight: bold
 
-  text-decoration: none
-  color: $base-font-color
-  //text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15)
+	text-decoration: none
+	color: $base-font-color
+	//text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15)
 
-  white-space: nowrap
-  cursor: pointer
-  -webkit-font-smoothing: antialiased
+	white-space: nowrap
+	cursor: pointer
+	-webkit-font-smoothing: antialiased
 
-  background-color: $button-background-color
+	background-color: $button-background-color
 
-  border: 1px solid $button-border-color
-  border-radius: $base-border-radius
-  
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 3px rgba(0, 0, 0, .05)
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 3px rgba(0, 0, 0, .05)
+	border: 1px solid $button-border-color
+	border-radius: $base-border-radius
 
-  &:focus
-    text-decoration: none
-    outline: none
-    border-color: $action-color
-    //box-shadow: inset 0 1px 0 rgba(255, 255, 255, 1), 0 0 5px rgba($action-color, 0.5)
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 3px rgba(0, 0, 0, .05)
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 3px rgba(0, 0, 0, .05)
 
-  &:focus:hover,
-  &.selected:focus
-    @extend button:focus
+	&:focus
+		text-decoration: none
+		outline: none
+		border-color: $action-color
+		//box-shadow: inset 0 1px 0 rgba(255, 255, 255, 1), 0 0 5px rgba($action-color, 0.5)
 
-  &:hover,
-  &:active
-    text-decoration: none
-    color: darken($button-font-color, 10%)
-    background: darken($button-background-color, 3%)
-    background-image: linear-gradient($button-background-color, darken($button-background-color,7%))
-    border-color: darken($button-border-color, 10%)
-    //box-shadow: $base-box-shadow
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 3px rgba(0, 0, 0, .2)
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 3px rgba(0, 0 ,0, .2)
+	&:focus:hover,
+	&.selected:focus
+		@extend button:focus
 
-  &:active,
-  &.selected
-    @extend button:hover
-    //box-shadow: $base-inset-box-shadow
+	&:hover,
+	&:active
+		text-decoration: none
+		color: darken($button-font-color, 10%)
+		background: darken($button-background-color, 3%)
+		background-image: linear-gradient($button-background-color, darken($button-background-color,7%))
+		border-color: darken($button-border-color, 10%)
+		//box-shadow: $base-box-shadow
+		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 3px rgba(0, 0, 0, .2)
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 3px rgba(0, 0 ,0, .2)
 
-  &.selected:hover
-    //background-color: darken(gainsboro, 5%)
+	&:active,
+	&.selected
+		@extend button:hover
+		//box-shadow: $base-inset-box-shadow
 
-  &:disabled,
-  &.disabled
-    &,
-    &:hover
-      color: rgba(102, 102, 102, 0.5)
-      cursor: default
-      background-color: rgba(229, 229, 229, 0.5)
-      background-image: none
-      border-color: rgba(197, 197, 197, 0.5)
-      box-shadow: none
-    
-  .icon
-    margin: 0 .3rem
-    color: $base-font-color
+	&.selected:hover
+		//background-color: darken(gainsboro, 5%)
+
+	&:disabled,
+	&.disabled
+		&,
+		&:hover
+			color: rgba(102, 102, 102, 0.5)
+			cursor: default
+			background-color: rgba(229, 229, 229, 0.5)
+			background-image: none
+			border-color: rgba(197, 197, 197, 0.5)
+			box-shadow: none
+
+	.icon
+		margin: 0 .3rem
+		color: $base-font-color

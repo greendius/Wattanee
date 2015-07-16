@@ -3,7 +3,7 @@ layout: page
 title: Typography
 ---
 
-Headings, paragraphs, blockquotes, lists, 
+Headings, paragraphs, blockquotes, lists,
 and more have some global resets. It's worth noting these aren't the same as our Markdown styles.
 
 ## Contents
@@ -14,7 +14,7 @@ and more have some global resets. It's worth noting these aren't the same as our
 
 ## Font stack
 
-Heading font: [PGVIM](http://www.f0nt.com/release/pgvim/)  
+Heading font: [PGVIM](http://www.f0nt.com/release/pgvim/)
 Body font: Tahoma
 
 {% example html %}
@@ -50,7 +50,7 @@ Make a paragraph stand out by adding `.lead`.
 
 {% example html %}
 <p class="lead">
-  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+	พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
 </p>
 {% endexample %}
 

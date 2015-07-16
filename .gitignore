@@ -1,5 +1,3 @@
 .sass-cache/
 _site/
 .todo
-deploy.sh
-deploy_2.sh

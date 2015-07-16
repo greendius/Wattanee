@@ -2,54 +2,65 @@
 // =====
 // Default quote
 blockquote
-  padding: .5rem $base-spacing
-  margin: 0 0 $small-spacing
-  font-size: $large-font-size
-  border-left: 1px solid $brand-primary
+	padding: .5rem $base-spacing
+	margin: 0 0 $small-spacing
+	font-size: $large-font-size
+	border-left: 1px solid $brand-primary
 
-  p
-    margin: 0
+	p
+		margin: 0
 
 // Banner Quote
 .banner-quote
-  padding: 2rem
-  margin-bottom: $base-spacing
-  background-color: $brand-secondary
+	padding: 2rem
+	margin-bottom: $base-spacing
+	background-color: $brand-secondary
+	background: $brand-secondary url(../img/lotus-bg-right.png) bottom right no-repeat
 
-  blockquote
-    padding: .3rem 1rem
+	blockquote
+		padding: .3rem 1rem
 
-    .banner-quote-header
-      @extend h5
-      margin: 0
-      font-style: normal
-      color: $brand-primary
+		.banner-quote-header
+			@extend h5
+			margin: 0
+			font-style: normal
+			color: $brand-primary
 
-    .banner-quote-content,
-    .banner-quote-footer
-      @extend h5
-      margin: 0
+		.banner-quote-content,
+		.banner-quote-footer
+			@extend h5
+			margin: 0
 
-      font-size: 23px
-      font-style: normal
+			font-size: 23px
+			font-style: normal
 
-      color: #fff
+			color: #fff
 
-    .banner-quote-footer
-      position: relative
-      text-align: right
-      opacity: .7
+		.banner-quote-footer
+			position: relative
+			text-align: right
+			opacity: .7
 
 +susy-breakpoint($tablet, 12)
-  // Banner quote
-  .banner-quote
+	// Banner quote
+	.banner-quote
+		display: flex
+		align-items: center
 
-    blockquote
-      padding: .5rem $large-spacing
-      max-width: 60%
-      margin: auto
+		height: 250px
 
-      .banner-quote-header
-        font-size: 1.5em
+		//background: $brand-secondary url(../img/lotus-bg-right.png) bottom right no-repeat, url(../img/lotus-bg-left.png) bottom left no-repeat
+		background: url(../img/lotus-bg-right.png), url(../img/lotus-bg-left.png)
+		background-repeat: no-repeat, no-repeat
+		background-position: bottom right, bottom left
+		background-color: $brand-secondary
+
+		blockquote
+			padding: .5rem $large-spacing
+			max-width: 60%
+			margin: auto
+
+			.banner-quote-header
+				font-size: 1.5em
 
 

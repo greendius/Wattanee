@@ -24,7 +24,7 @@ body {
   margin: 0; }
 
 /* HTML5 display definitions
-   ========================================================================== */
+	 ========================================================================== */
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
  * Correct `block` display not defined for `details` or `summary` in IE 10/11
@@ -80,7 +80,7 @@ template {
   display: none; }
 
 /* Links
-   ========================================================================== */
+	 ========================================================================== */
 /**
  * Remove the gray background color from active links in IE 10.
  */
@@ -98,7 +98,7 @@ a:hover {
   outline: 0; }
 
 /* Text-level semantics
-   ========================================================================== */
+	 ========================================================================== */
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
@@ -126,7 +126,7 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 /* line 136, E:/GitHub/wattanee/sass/settings/_normalize.scss */
-h1 {
+h1, .page-title {
   font-size: 2em;
   margin: 0.67em 0; }
 
@@ -165,7 +165,7 @@ sub {
   bottom: -0.25em; }
 
 /* Embedded content
-   ========================================================================== */
+	 ========================================================================== */
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
@@ -181,7 +181,7 @@ svg:not(:root) {
   overflow: hidden; }
 
 /* Grouping content
-   ========================================================================== */
+	 ========================================================================== */
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
@@ -216,7 +216,7 @@ samp {
   font-size: 1em; }
 
 /* Forms
-   ========================================================================== */
+	 ========================================================================== */
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
  * styling of `select`, unless a `border` property is set.
@@ -391,7 +391,7 @@ optgroup {
   font-weight: bold; }
 
 /* Tables
-   ========================================================================== */
+	 ========================================================================== */
 /**
  * Remove most spacing between table cells.
  */
@@ -425,7 +425,7 @@ License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
   unicode-range: U270C; }
 
 /* line 36, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-mixins.scss */
-.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .site-logo .site-title, .site-logo .site-title span, .banner-quote blockquote .banner-quote-header, .banner-quote blockquote .banner-quote-content,
+.typl8-tera, .typl8-giga, .typl8-mega, h1, .page-title, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .site-logo .site-title, .site-logo .site-title span, .banner-quote blockquote .banner-quote-header, .banner-quote blockquote .banner-quote-content,
 .banner-quote blockquote .banner-quote-footer, .panel-header .panel-title, .typl8-epsilon, .typl8-zeta, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
@@ -448,7 +448,7 @@ pre code {
 
 /* line 4, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-styles.scss */
 html {
-  font: normal 85%/1.4 "Tahoma", serif; }
+  font: normal 90%/1.6 "Tahoma", serif; }
 
 /* line 12, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-styles.scss */
 body {
@@ -461,66 +461,66 @@ body {
 /* line 44, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-mixins.scss */
 .typl8-tera {
   font-size: 117px;
-  font-size: 8.60294rem;
-  margin-bottom: 83.57143px;
-  margin-bottom: 6.14496rem; }
+  font-size: 8.125rem;
+  margin-bottom: 73.125px;
+  margin-bottom: 5.07812rem; }
 
 /* line 44, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-mixins.scss */
 .typl8-giga {
   font-size: 90px;
-  font-size: 6.61765rem;
-  margin-bottom: 64.28571px;
-  margin-bottom: 4.72689rem; }
+  font-size: 6.25rem;
+  margin-bottom: 56.25px;
+  margin-bottom: 3.90625rem; }
 
 /* line 44, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-mixins.scss */
-.typl8-mega, h1 {
+.typl8-mega, h1, .page-title {
   font-size: 72px;
-  font-size: 5.29412rem;
-  margin-bottom: 51.42857px;
-  margin-bottom: 3.78151rem; }
+  font-size: 5rem;
+  margin-bottom: 45px;
+  margin-bottom: 3.125rem; }
 
 /* line 44, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-mixins.scss */
 .typl8-alpha, h2 {
   font-size: 60px;
-  font-size: 4.41176rem;
-  margin-bottom: 42.85714px;
-  margin-bottom: 3.15126rem; }
+  font-size: 4.16667rem;
+  margin-bottom: 37.5px;
+  margin-bottom: 2.60417rem; }
 
 /* line 44, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-mixins.scss */
 .typl8-beta, h3 {
   font-size: 48px;
-  font-size: 3.52941rem;
-  margin-bottom: 34.28571px;
-  margin-bottom: 2.52101rem; }
+  font-size: 3.33333rem;
+  margin-bottom: 30px;
+  margin-bottom: 2.08333rem; }
 
 /* line 44, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-mixins.scss */
 .typl8-gamma, h4 {
   font-size: 36px;
-  font-size: 2.64706rem;
-  margin-bottom: 25.71429px;
-  margin-bottom: 1.89076rem; }
+  font-size: 2.5rem;
+  margin-bottom: 22.5px;
+  margin-bottom: 1.5625rem; }
 
 /* line 44, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-mixins.scss */
 .typl8-delta, h5, .site-logo .site-title, .site-logo .site-title span, .banner-quote blockquote .banner-quote-header, .banner-quote blockquote .banner-quote-content,
 .banner-quote blockquote .banner-quote-footer, .panel-header .panel-title {
   font-size: 24px;
-  font-size: 1.76471rem;
-  margin-bottom: 17.14286px;
-  margin-bottom: 1.2605rem; }
+  font-size: 1.66667rem;
+  margin-bottom: 15px;
+  margin-bottom: 1.04167rem; }
 
 /* line 44, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-mixins.scss */
 .typl8-epsilon {
   font-size: 21px;
-  font-size: 1.54412rem;
-  margin-bottom: 15px;
-  margin-bottom: 1.10294rem; }
+  font-size: 1.45833rem;
+  margin-bottom: 13.125px;
+  margin-bottom: 0.91146rem; }
 
 /* line 44, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-mixins.scss */
 .typl8-zeta, h6 {
   font-size: 18px;
-  font-size: 1.32353rem;
-  margin-bottom: 12.85714px;
-  margin-bottom: 0.94538rem; }
+  font-size: 1.25rem;
+  margin-bottom: 11.25px;
+  margin-bottom: 0.78125rem; }
 
 /* line 30, E:/GitHub/wattanee/sass/settings/typeplate/_typeplate-styles.scss */
 p {
@@ -734,7 +734,7 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: #faf8f2; }
+  background: #fcfbf8; }
 
 /* line 22, E:/GitHub/wattanee/sass/_scaffolding.sass */
 *, *:before,
@@ -753,10 +753,10 @@ body {
   color: #333;
   font-family: "Tahoma";
   font-size: 1rem;
-  line-height: 1.4; }
+  line-height: 1.6; }
 
 /* line 40, E:/GitHub/wattanee/sass/_scaffolding.sass */
-h1, .h1,
+h1, .page-title, .h1,
 h2, .h2,
 h3, .h3,
 h4, .h4,
@@ -770,7 +770,7 @@ h6, .h6 {
   font-weight: normal; }
 
 /* line 49, E:/GitHub/wattanee/sass/_scaffolding.sass */
-h1 {
+h1, .page-title {
   font-size: 62px;
   line-height: .8; }
 
@@ -1316,6 +1316,10 @@ textarea.input-contrast,
 textarea {
   resize: vertical; }
 
+/* line 3, E:/GitHub/wattanee/sass/atoms/_type.sass */
+.page-title {
+  margin-bottom: 2rem; }
+
 /* line 3, E:/GitHub/wattanee/sass/atoms/_counter.sass */
 .counter {
   display: inline-block;
@@ -1564,70 +1568,138 @@ textarea {
       display: block;
       text-indent: -9999em; } }
 
+@media (min-width: 641px) {
+  /* line 41, E:/GitHub/wattanee/sass/molecules/_logo.sass */
+  .site-logo {
+    border-top: 0; } }
+
 /* line 3, E:/GitHub/wattanee/sass/molecules/_banners.sass */
 .banner {
   width: 100%; }
 
-/* line 6, E:/GitHub/wattanee/sass/molecules/_main-menu.sass */
+/* line 6, E:/GitHub/wattanee/sass/molecules/_images.sass */
+.img-square,
+.img-thumbnail,
+.img-small,
+.img-medium {
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 1rem; }
+
+/* line 12, E:/GitHub/wattanee/sass/molecules/_images.sass */
+.img-square {
+  width: 75px;
+  height: 75px; }
+
+/* line 16, E:/GitHub/wattanee/sass/molecules/_images.sass */
+.img-thumbnail {
+  width: 260px;
+  height: 140px; }
+
+/* line 20, E:/GitHub/wattanee/sass/molecules/_images.sass */
+.img-small {
+  width: 320px;
+  height: 240px; }
+
+/* line 24, E:/GitHub/wattanee/sass/molecules/_images.sass */
+.img-medium {
+  width: 500px;
+  height: 335px; }
+
+/* line 28, E:/GitHub/wattanee/sass/molecules/_images.sass */
+.img-large {
+  width: 100%;
+  max-width: 850px;
+  height: auto;
+  max-height: 400px;
+  margin-bottom: 2rem; }
+
+/* line 36, E:/GitHub/wattanee/sass/molecules/_images.sass */
+.img-banner {
+  width: 100%;
+  max-width: 1130px;
+  height: auto;
+  max-height: 420px;
+  margin-bottom: 2rem; }
+
+/* line 44, E:/GitHub/wattanee/sass/molecules/_images.sass */
+.featured-img {
+  width: 100%; }
+
+/* line 6, E:/GitHub/wattanee/sass/molecules/_menu.sass */
 .main-menu {
   display: none; }
 
 @media (min-width: 641px) {
-  /* line 11, E:/GitHub/wattanee/sass/molecules/_main-menu.sass */
+  /* line 11, E:/GitHub/wattanee/sass/molecules/_menu.sass */
   .main-menu {
     display: block;
-    margin-bottom: 1rem; }
-    /* line 15, E:/GitHub/wattanee/sass/molecules/_main-menu.sass */
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #efe8d5; }
+    /* line 16, E:/GitHub/wattanee/sass/molecules/_menu.sass */
     .main-menu ul {
       margin: auto;
       text-align: center; }
-  /* line 19, E:/GitHub/wattanee/sass/molecules/_main-menu.sass */
+  /* line 20, E:/GitHub/wattanee/sass/molecules/_menu.sass */
   .main-menu li {
     display: inline-block;
     padding: 0.2rem 1rem; }
-    /* line 23, E:/GitHub/wattanee/sass/molecules/_main-menu.sass */
+    /* line 24, E:/GitHub/wattanee/sass/molecules/_menu.sass */
     .main-menu li a {
       font-family: "PGVIM";
       font-size: 26px;
       color: #b29c7b; }
-      /* line 30, E:/GitHub/wattanee/sass/molecules/_main-menu.sass */
+      /* line 31, E:/GitHub/wattanee/sass/molecules/_menu.sass */
       .main-menu li a:hover,
       .main-menu li a:focus {
         color: #dcbb4d; }
-    /* line 33, E:/GitHub/wattanee/sass/molecules/_main-menu.sass */
+    /* line 34, E:/GitHub/wattanee/sass/molecules/_menu.sass */
     .main-menu li.selected a {
       color: #bc4953; } }
 
-/* line 5, E:/GitHub/wattanee/sass/molecules/_menu.sass */
+/* line 41, E:/GitHub/wattanee/sass/molecules/_menu.sass */
 .side-menu {
   width: 100%; }
+  /* line 45, E:/GitHub/wattanee/sass/molecules/_menu.sass */
+  .side-menu .side-menu-title {
+    border-bottom: 2px solid #efe8d5; }
 
-/* line 9, E:/GitHub/wattanee/sass/molecules/_menu.sass */
+/* line 48, E:/GitHub/wattanee/sass/molecules/_menu.sass */
 .side-menu ul {
   padding: 0;
   list-style: disc inside; }
-  /* line 14, E:/GitHub/wattanee/sass/molecules/_menu.sass */
+  /* line 53, E:/GitHub/wattanee/sass/molecules/_menu.sass */
   .side-menu ul li {
+    padding: .5em 0;
     margin-left: 0;
-    font-size: .6em;
-    border-bottom: 1px solid gainsboro; }
-    /* line 20, E:/GitHub/wattanee/sass/molecules/_menu.sass */
+    font-size: .6em; }
+    /* line 58, E:/GitHub/wattanee/sass/molecules/_menu.sass */
     .side-menu ul li:last-child {
       border-bottom: 0; }
-    /* line 23, E:/GitHub/wattanee/sass/molecules/_menu.sass */
+    /* line 61, E:/GitHub/wattanee/sass/molecules/_menu.sass */
     .side-menu ul li:hover {
       color: #bc4953; }
-    /* line 26, E:/GitHub/wattanee/sass/molecules/_menu.sass */
+    /* line 64, E:/GitHub/wattanee/sass/molecules/_menu.sass */
     .side-menu ul li a {
-      display: inline-block;
-      padding: .5rem;
-      font-family: "PGVIM";
-      font-size: 23px;
-      color: #b29c7b; }
-      /* line 37, E:/GitHub/wattanee/sass/molecules/_menu.sass */
-      .side-menu ul li a:hover,
-      .side-menu ul li a:focus {
-        color: #bc4953; }
+      font-size: 1rem; }
+
+/* line 72, E:/GitHub/wattanee/sass/molecules/_menu.sass */
+.post-side-menu {
+  padding: 1rem; }
+
+/* line 78, E:/GitHub/wattanee/sass/molecules/_menu.sass */
+.page-side-menu li {
+  border-bottom: 1px solid #efe8d5; }
+  /* line 81, E:/GitHub/wattanee/sass/molecules/_menu.sass */
+  .page-side-menu li a {
+    display: inline-block;
+    padding: .5rem;
+    font-family: "PGVIM";
+    font-size: 23px !important;
+    color: #b29c7b; }
+    /* line 89, E:/GitHub/wattanee/sass/molecules/_menu.sass */
+    .page-side-menu li a:hover {
+      color: #bc4953; }
 
 /* line 4, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
 blockquote {
@@ -1643,37 +1715,47 @@ blockquote {
 .banner-quote {
   padding: 2rem;
   margin-bottom: 1rem;
-  background-color: #bc4953; }
-  /* line 19, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
+  background-color: #bc4953;
+  background: #bc4953 url(../img/lotus-bg-right.png) bottom right no-repeat; }
+  /* line 20, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
   .banner-quote blockquote {
     padding: 0.3rem 1rem; }
-    /* line 22, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
+    /* line 23, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
     .banner-quote blockquote .banner-quote-header {
       margin: 0;
       font-style: normal;
       color: #dcbb4d; }
-    /* line 29, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
+    /* line 30, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
     .banner-quote blockquote .banner-quote-content,
     .banner-quote blockquote .banner-quote-footer {
       margin: 0;
       font-size: 23px;
       font-style: normal;
       color: #fff; }
-    /* line 38, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
+    /* line 39, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
     .banner-quote blockquote .banner-quote-footer {
       position: relative;
       text-align: right;
       opacity: .7; }
 
 @media (min-width: 641px) {
-  /* line 47, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
-  .banner-quote blockquote {
-    padding: 0.5rem 2rem;
-    max-width: 60%;
-    margin: auto; }
-    /* line 52, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
-    .banner-quote blockquote .banner-quote-header {
-      font-size: 1.5em; } }
+  /* line 46, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
+  .banner-quote {
+    display: flex;
+    align-items: center;
+    height: 250px;
+    background: url(../img/lotus-bg-right.png), url(../img/lotus-bg-left.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, bottom left;
+    background-color: #bc4953; }
+    /* line 58, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
+    .banner-quote blockquote {
+      padding: 0.5rem 2rem;
+      max-width: 60%;
+      margin: auto; }
+      /* line 63, E:/GitHub/wattanee/sass/molecules/_quotes.sass */
+      .banner-quote blockquote .banner-quote-header {
+        font-size: 1.5em; } }
 
 /* line 24, E:/GitHub/wattanee/sass/molecules/_alerts.sass */
 .alert-messages {
@@ -1748,55 +1830,111 @@ blockquote {
   .media .media-body {
     display: table-cell;
     vertical-align: top; }
-  /* line 50, E:/GitHub/wattanee/sass/molecules/_media.sass */
-  .media .media-image > img {
-    -webkit-transition: opacity 0.2s ease-in-out;
-    -moz-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
-    display: block;
+  /* line 46, E:/GitHub/wattanee/sass/molecules/_media.sass */
+  .media .media-image {
     width: 75px;
-    height: auto;
-    max-width: none;
-    opacity: 1; }
-  /* line 64, E:/GitHub/wattanee/sass/molecules/_media.sass */
+    height: 75px; }
+    /* line 51, E:/GitHub/wattanee/sass/molecules/_media.sass */
+    .media .media-image > img {
+      -webkit-transition: opacity 0.2s ease-in-out;
+      -moz-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out;
+      display: block;
+      width: 100%;
+      height: auto;
+      opacity: 1; }
+  /* line 67, E:/GitHub/wattanee/sass/molecules/_media.sass */
   .media .media-body {
+    width: auto;
     padding-left: .8rem; }
-  /* line 71, E:/GitHub/wattanee/sass/molecules/_media.sass */
+  /* line 74, E:/GitHub/wattanee/sass/molecules/_media.sass */
   .media .media-title,
   .media .media-content {
     font-size: 13px; }
-  /* line 74, E:/GitHub/wattanee/sass/molecules/_media.sass */
+  /* line 77, E:/GitHub/wattanee/sass/molecules/_media.sass */
   .media .media-title {
     margin-bottom: .5em;
     font-weight: normal;
+    line-height: 1.2;
     color: #333;
     transition: color 0.2s linear; }
-  /* line 80, E:/GitHub/wattanee/sass/molecules/_media.sass */
+  /* line 86, E:/GitHub/wattanee/sass/molecules/_media.sass */
   .media .media-content {
     font-style: normal; }
 
 @media (min-width: 641px) {
-  /* line 89, E:/GitHub/wattanee/sass/molecules/_media.sass */
+  /* line 94, E:/GitHub/wattanee/sass/molecules/_media.sass */
   .media .media-title,
   .media .media-content {
-    font-size: 1em; }
-  /* line 93, E:/GitHub/wattanee/sass/molecules/_media.sass */
+    font-size: 1em; } }
+
+@media (min-width: 641px) {
+  /* line 99, E:/GitHub/wattanee/sass/molecules/_media.sass */
   .media-grid .media-items {
     width: 23.72881%;
     float: left;
-    margin-right: 1.69492%; }
-    /* line 97, E:/GitHub/wattanee/sass/molecules/_media.sass */
-    .media-grid .media-items:last-child {
+    margin-right: 1.69492%;
+    display: block; }
+    /* line 104, E:/GitHub/wattanee/sass/molecules/_media.sass */
+    .media-grid .media-items:nth-child(4n) {
       margin-right: 0; }
-  /* line 100, E:/GitHub/wattanee/sass/molecules/_media.sass */
-  .media-grid .media-image {
-    display: block;
-    width: 100%; }
-  /* line 105, E:/GitHub/wattanee/sass/molecules/_media.sass */
-  .media-grid .media-body {
-    display: block;
-    width: 100%;
-    padding: .5rem 0; } }
+    /* line 107, E:/GitHub/wattanee/sass/molecules/_media.sass */
+    .media-grid .media-items .media-image {
+      display: block;
+      width: 260px;
+      height: 140px; }
+      /* line 112, E:/GitHub/wattanee/sass/molecules/_media.sass */
+      .media-grid .media-items .media-image > img {
+        width: 100%;
+        height: auto; }
+    /* line 117, E:/GitHub/wattanee/sass/molecules/_media.sass */
+    .media-grid .media-items .media-title,
+    .media-grid .media-items .media-content {
+      clear: both;
+      display: block; } }
+
+/* line 16, E:/GitHub/wattanee/sass/molecules/_panels.sass */
+.panel, .post-side-menu {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  background: #fff;
+  box-shadow: 0 0 1px 0 #efe8d5; }
+
+/* line 27, E:/GitHub/wattanee/sass/molecules/_panels.sass */
+.panel-header {
+  padding: 0.5rem;
+  border-bottom: 1px solid #efe8d5;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; }
+  /* line 38, E:/GitHub/wattanee/sass/molecules/_panels.sass */
+  .panel-header .panel-title {
+    margin: 0; }
+
+/* line 42, E:/GitHub/wattanee/sass/molecules/_panels.sass */
+.panel-footer {
+  padding: 6px 0.5rem;
+  font-size: 1em;
+  border-top: 1px solid #f3f3f3; }
+
+/* line 47, E:/GitHub/wattanee/sass/molecules/_panels.sass */
+.panel-body {
+  padding: 0.5rem; }
+
+@media (min-width: 641px) {
+  /* line 56, E:/GitHub/wattanee/sass/molecules/_panels.sass */
+  .panel-header {
+    padding: 0.5rem 1rem; }
+  /* line 59, E:/GitHub/wattanee/sass/molecules/_panels.sass */
+  .panel-body {
+    padding: 1rem; }
+  /* line 62, E:/GitHub/wattanee/sass/molecules/_panels.sass */
+  .panel-footer {
+    padding: 0.5rem 1rem; } }
 
 /* line 5, E:/GitHub/wattanee/sass/organisms/_site-header.sass */
 .site-header .menu-btn {
@@ -1811,8 +1949,11 @@ blockquote {
   .site-header .social-links a {
     display: inline-block;
     opacity: .8; }
+  /* line 18, E:/GitHub/wattanee/sass/organisms/_site-header.sass */
+  .site-header .social-links .fa {
+    font-size: 21px !important; }
 
-/* line 18, E:/GitHub/wattanee/sass/organisms/_site-header.sass */
+/* line 21, E:/GitHub/wattanee/sass/organisms/_site-header.sass */
 .site-header .site-logo {
   clear: both;
   width: 100%; }
@@ -1820,6 +1961,7 @@ blockquote {
 /* line 3, E:/GitHub/wattanee/sass/organisms/_site-footer.sass */
 .site-footer {
   padding: 1rem;
+  margin-top: 2rem;
   font-size: 13px;
   text-align: center;
   border-top: 1px solid #efe8d5; }
@@ -1833,54 +1975,62 @@ blockquote {
     clear: both;
     content: ""; }
 
-/* line 16, E:/GitHub/wattanee/sass/organisms/_panels.sass */
-.panel {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 1rem;
-  background: #fff;
-  box-shadow: 0 0 0 1px #efe8d5; }
-
-/* line 27, E:/GitHub/wattanee/sass/organisms/_panels.sass */
-.panel-header {
-  padding: 0.5rem;
-  border-bottom: 1px solid #efe8d5;
-  border-radius: 3px; }
-  /* line 33, E:/GitHub/wattanee/sass/organisms/_panels.sass */
-  .panel-header .panel-title {
-    margin: 0; }
-
-/* line 37, E:/GitHub/wattanee/sass/organisms/_panels.sass */
-.panel-footer {
-  padding: 6px 0.5rem;
-  font-size: 0.7em;
-  border-top: 1px solid #f3f3f3; }
-
-/* line 42, E:/GitHub/wattanee/sass/organisms/_panels.sass */
-.panel-body {
-  padding: 0.5rem; }
-
 @media (min-width: 641px) {
-  /* line 51, E:/GitHub/wattanee/sass/organisms/_panels.sass */
-  .panel-header {
-    padding: 0.5rem 1rem; }
-  /* line 54, E:/GitHub/wattanee/sass/organisms/_panels.sass */
-  .panel-body {
-    padding: 1rem; } }
-
-@media (min-width: 641px) {
-  /* line 6, E:/GitHub/wattanee/sass/templates/_page.sass */
+  /* line 5, E:/GitHub/wattanee/sass/templates/_page.sass */
   .page .sidebar {
-    width: 23.72881%;
+    width: 100%;
     float: left;
-    margin-right: 1.69492%; }
-  /* line 9, E:/GitHub/wattanee/sass/templates/_page.sass */
-  .page .content {
-    width: 66.10169%;
-    float: right;
+    margin-left: 0;
     margin-right: 0; } }
 
-/* line 7, E:/GitHub/wattanee/sass/templates/__templates.sass */
+@media (min-width: 1025px) {
+  /* line 15, E:/GitHub/wattanee/sass/templates/_page.sass */
+  .page .sidebar {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%; }
+  /* line 18, E:/GitHub/wattanee/sass/templates/_page.sass */
+  .page .content {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-left: 8.47458%; } }
+
+@media (min-width: 641px) {
+  /* line 5, E:/GitHub/wattanee/sass/templates/_post.sass */
+  .post .sidebar {
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; }
+  /* line 10, E:/GitHub/wattanee/sass/templates/_post.sass */
+  .post .content {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media (min-width: 1025px) {
+  /* line 16, E:/GitHub/wattanee/sass/templates/_post.sass */
+  .post .sidebar {
+    clear: none;
+    width: 23.72881%;
+    float: right;
+    margin-right: 0; }
+  /* line 20, E:/GitHub/wattanee/sass/templates/_post.sass */
+  .post .content {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%; }
+    /* line 24, E:/GitHub/wattanee/sass/templates/_post.sass */
+    .post .content .post-content {
+      width: 77.27273%;
+      float: left;
+      margin-right: 2.27273%;
+      margin-left: 22.72727%; } }
+
+/* line 8, E:/GitHub/wattanee/sass/templates/__templates.sass */
 .container {
   max-width: 1130px;
   margin-left: auto;
@@ -1891,27 +2041,31 @@ blockquote {
     display: block;
     clear: both; }
 
-/* line 13, E:/GitHub/wattanee/sass/templates/__templates.sass */
+/* line 14, E:/GitHub/wattanee/sass/templates/__templates.sass */
 .row, .row-mega {
   clear: both;
   margin-bottom: 1rem; }
 
-/* line 18, E:/GitHub/wattanee/sass/templates/__templates.sass */
+/* line 19, E:/GitHub/wattanee/sass/templates/__templates.sass */
 .row-mega {
   padding: 1rem 0; }
 
-/* line 24, E:/GitHub/wattanee/sass/templates/__templates.sass */
+/* line 23, E:/GitHub/wattanee/sass/templates/__templates.sass */
 .col {
   width: 100%;
   margin-bottom: 1rem; }
 
+/* line 28, E:/GitHub/wattanee/sass/templates/__templates.sass */
+.content-panel {
+  padding: 2rem 0; }
+
 @media (min-width: 641px) {
-  /* line 30, E:/GitHub/wattanee/sass/templates/__templates.sass */
+  /* line 32, E:/GitHub/wattanee/sass/templates/__templates.sass */
   .col-half {
     width: 49.15254%;
     float: left;
     margin-right: 1.69492%; }
-  /* line 33, E:/GitHub/wattanee/sass/templates/__templates.sass */
+  /* line 35, E:/GitHub/wattanee/sass/templates/__templates.sass */
   .col-last {
     width: 49.15254%;
     float: right;
@@ -1970,7 +2124,7 @@ blockquote {
 .pushy a {
   display: block;
   padding: .7rem;
-  font-size: .8rem;
+  font-size: 1rem;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.4); }
 
@@ -2144,10 +2298,11 @@ blockquote {
 
 /* line 112, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
 .slick-slider {
+  max-width: 1130px;
   margin-bottom: 1rem;
   background-color: #ddd; }
 
-/* line 117, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
+/* line 118, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
 .slick-dots {
   position: absolute;
   bottom: -10px;
@@ -2156,7 +2311,7 @@ blockquote {
   text-align: center;
   padding: 0;
   width: 100%; }
-  /* line 126, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
+  /* line 127, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
   .slick-dots li {
     position: relative;
     display: inline-block;
@@ -2165,7 +2320,7 @@ blockquote {
     margin: 0 5px;
     padding: 0;
     cursor: pointer; }
-    /* line 135, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
+    /* line 136, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
     .slick-dots li button {
       border: 0;
       background: transparent;
@@ -2179,13 +2334,13 @@ blockquote {
       padding: 5px;
       cursor: pointer;
       box-shadow: none; }
-      /* line 150, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
+      /* line 151, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
       .slick-dots li button:hover, .slick-dots li button:active, .slick-dots li button.selected, .slick-dots li input[type="button"]:active, .slick-dots li select[type="button"]:active, .slick-dots li textarea[type="button"]:active, .slick-dots li input[type="button"].selected, .slick-dots li select[type="button"].selected, .slick-dots li textarea[type="button"].selected, .slick-dots li input[type="reset"]:active, .slick-dots li select[type="reset"]:active, .slick-dots li textarea[type="reset"]:active, .slick-dots li input[type="reset"].selected, .slick-dots li select[type="reset"].selected, .slick-dots li textarea[type="reset"].selected, .slick-dots li input[type="submit"]:active, .slick-dots li select[type="submit"]:active, .slick-dots li textarea[type="submit"]:active, .slick-dots li input[type="submit"].selected, .slick-dots li select[type="submit"].selected, .slick-dots li textarea[type="submit"].selected, .slick-dots li .button:active, .slick-dots li .button.selected, .slick-dots li .btn:active, .slick-dots li .btn.selected, .slick-dots li *[role=button]:active, .slick-dots li *[role=button].selected, .slick-dots li button:focus, .slick-dots li input[type="button"]:focus:active, .slick-dots li select[type="button"]:focus:active, .slick-dots li textarea[type="button"]:focus:active, .slick-dots li input[type="button"].selected:focus, .slick-dots li select[type="button"].selected:focus, .slick-dots li textarea[type="button"].selected:focus, .slick-dots li input[type="reset"]:focus:active, .slick-dots li select[type="reset"]:focus:active, .slick-dots li textarea[type="reset"]:focus:active, .slick-dots li input[type="reset"].selected:focus, .slick-dots li select[type="reset"].selected:focus, .slick-dots li textarea[type="reset"].selected:focus, .slick-dots li input[type="submit"]:focus:active, .slick-dots li select[type="submit"]:focus:active, .slick-dots li textarea[type="submit"]:focus:active, .slick-dots li input[type="submit"].selected:focus, .slick-dots li select[type="submit"].selected:focus, .slick-dots li textarea[type="submit"].selected:focus, .slick-dots li .button:focus:active, .slick-dots li .button.selected:focus, .slick-dots li .btn:focus:active, .slick-dots li .btn.selected:focus, .slick-dots li [role=button]:focus:active, .slick-dots li [role=button].selected:focus, .slick-dots li input[type="button"]:focus:hover, .slick-dots li select[type="button"]:focus:hover, .slick-dots li textarea[type="button"]:focus:hover, .slick-dots li input[type="reset"]:focus:hover, .slick-dots li select[type="reset"]:focus:hover, .slick-dots li textarea[type="reset"]:focus:hover, .slick-dots li input[type="submit"]:focus:hover, .slick-dots li select[type="submit"]:focus:hover, .slick-dots li textarea[type="submit"]:focus:hover, .slick-dots li .button:focus:hover, .slick-dots li .btn:focus:hover, .slick-dots li *[role=button]:focus:hover {
         outline: none; }
-        /* line 153, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
+        /* line 154, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
         .slick-dots li button:hover:before, .slick-dots li button:active:before, .slick-dots li button.selected:before, .slick-dots li input[type="button"]:active:before, .slick-dots li select[type="button"]:active:before, .slick-dots li textarea[type="button"]:active:before, .slick-dots li input[type="button"].selected:before, .slick-dots li select[type="button"].selected:before, .slick-dots li textarea[type="button"].selected:before, .slick-dots li input[type="reset"]:active:before, .slick-dots li select[type="reset"]:active:before, .slick-dots li textarea[type="reset"]:active:before, .slick-dots li input[type="reset"].selected:before, .slick-dots li select[type="reset"].selected:before, .slick-dots li textarea[type="reset"].selected:before, .slick-dots li input[type="submit"]:active:before, .slick-dots li select[type="submit"]:active:before, .slick-dots li textarea[type="submit"]:active:before, .slick-dots li input[type="submit"].selected:before, .slick-dots li select[type="submit"].selected:before, .slick-dots li textarea[type="submit"].selected:before, .slick-dots li .button:active:before, .slick-dots li .button.selected:before, .slick-dots li .btn:active:before, .slick-dots li .btn.selected:before, .slick-dots li [role=button]:active:before, .slick-dots li [role=button].selected:before, .slick-dots li button:focus:before, .slick-dots li input[type="button"]:active:focus:before, .slick-dots li select[type="button"]:active:focus:before, .slick-dots li textarea[type="button"]:active:focus:before, .slick-dots li input[type="button"].selected:focus:before, .slick-dots li select[type="button"].selected:focus:before, .slick-dots li textarea[type="button"].selected:focus:before, .slick-dots li input[type="reset"]:active:focus:before, .slick-dots li select[type="reset"]:active:focus:before, .slick-dots li textarea[type="reset"]:active:focus:before, .slick-dots li input[type="reset"].selected:focus:before, .slick-dots li select[type="reset"].selected:focus:before, .slick-dots li textarea[type="reset"].selected:focus:before, .slick-dots li input[type="submit"]:active:focus:before, .slick-dots li select[type="submit"]:active:focus:before, .slick-dots li textarea[type="submit"]:active:focus:before, .slick-dots li input[type="submit"].selected:focus:before, .slick-dots li select[type="submit"].selected:focus:before, .slick-dots li textarea[type="submit"].selected:focus:before, .slick-dots li .button:active:focus:before, .slick-dots li .button.selected:focus:before, .slick-dots li .btn:active:focus:before, .slick-dots li .btn.selected:focus:before, .slick-dots li [role=button]:active:focus:before, .slick-dots li [role=button].selected:focus:before, .slick-dots li input[type="button"]:hover:focus:before, .slick-dots li select[type="button"]:hover:focus:before, .slick-dots li textarea[type="button"]:hover:focus:before, .slick-dots li input[type="reset"]:hover:focus:before, .slick-dots li select[type="reset"]:hover:focus:before, .slick-dots li textarea[type="reset"]:hover:focus:before, .slick-dots li input[type="submit"]:hover:focus:before, .slick-dots li select[type="submit"]:hover:focus:before, .slick-dots li textarea[type="submit"]:hover:focus:before, .slick-dots li .button:hover:focus:before, .slick-dots li .btn:hover:focus:before, .slick-dots li [role=button]:hover:focus:before {
           opacity: 1; }
-      /* line 156, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
+      /* line 157, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
       .slick-dots li button:before {
         position: absolute;
         top: 0;
@@ -2201,7 +2356,7 @@ blockquote {
         opacity: 0.25;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale; }
-    /* line 172, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
+    /* line 173, E:/GitHub/wattanee/sass/plugins/slick-custom-theme.sass */
     .slick-dots li.slick-active button:before {
       color: #dcbb4d;
       opacity: 0.5; }

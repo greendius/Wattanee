@@ -4,32 +4,32 @@
 // nav.main-menu > ul > li > a
 // Mobile first
 .main-menu
-  display: none
+	display: none
 
 // Larger screen
 +susy-breakpoint($tablet, 12)
-  .main-menu
-    display: block
-    margin-bottom: $large-spacing
-    border-bottom: 1px solid $primary-border-color
+	.main-menu
+		display: block
+		margin-bottom: $large-spacing
+		border-bottom: 1px solid $primary-border-color
 
-    ul
-      margin: auto
-      text-align: center
+		ul
+			margin: auto
+			text-align: center
 
-  .main-menu li
-    display: inline-block
-    padding: .2rem 1rem
+	.main-menu li
+		display: inline-block
+		padding: .2rem 1rem
 
-    a
-      font-family: $heading-font-family
-      font-size: 26px
+		a
+			font-family: $heading-font-family
+			font-size: 26px
 
-      color: $brown
+			color: $brown
 
-      &:hover,
-      &:focus
-        color: $brand-primary
+			&:hover,
+			&:focus
+				color: $brand-primary
 
-    &.selected a
-      color: $brand-secondary
+		&.selected a
+			color: $brand-secondary

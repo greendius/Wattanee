@@ -12,7 +12,7 @@ title: Quotes
 
 {% example html %}
 <blockquote>
-  <p>คนพาลที่ยังไม่ถูกผูกมัด แต่พอพูดในเรื่องใด ก็ถูกผูกมัดตัวในเรื่องนั้น</p>
+	<p>คนพาลที่ยังไม่ถูกผูกมัด แต่พอพูดในเรื่องใด ก็ถูกผูกมัดตัวในเรื่องนั้น</p>
 </blockquote>
 {% endexample %}
 
@@ -20,10 +20,10 @@ title: Quotes
 ## Banner quote
 {% example html %}
 <div class="banner banner-quote">
-  <blockquote>
-    <p class="banner-quote-header">อพทฺธา ตตฺถ พชฺฌนฺต</p>
-    <p class="banner-quote-content">คนพาลที่ยังไม่ถูกผูกมัด แต่พอพูดในเรื่องใด ก็ถูกผูกมัดตัวในเรื่องนั้น</p>
-    <p class="banner-quote-footer">พุทธศาสสุภาษิต</p>
-  </blockquote>
+	<blockquote>
+		<p class="banner-quote-header">อพทฺธา ตตฺถ พชฺฌนฺต</p>
+		<p class="banner-quote-content">คนพาลที่ยังไม่ถูกผูกมัด แต่พอพูดในเรื่องใด ก็ถูกผูกมัดตัวในเรื่องนั้น</p>
+		<p class="banner-quote-footer">พุทธศาสสุภาษิต</p>
+	</blockquote>
 </div>
 {% endexample %}

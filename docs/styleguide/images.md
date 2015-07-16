@@ -27,7 +27,7 @@ Banner 1130 x 450<br />
 
 {% example html %}
 <div class="img-square">
-  <img src="http://loremflickr.com/75/75/flower" />
+	<img src="http://loremflickr.com/75/75/flower" />
 </div>
 {% endexample %}
 
@@ -35,7 +35,7 @@ Banner 1130 x 450<br />
 
 {% example html %}
 <div class="img-thumbnail">
-  <img src="http://loremflickr.com/100/80/flower" />
+	<img src="http://loremflickr.com/100/80/flower" />
 </div>
 {% endexample %}
 
@@ -43,7 +43,7 @@ Banner 1130 x 450<br />
 
 {% example html %}
 <div class="img-small">
-  <img src="http://loremflickr.com/240/160/flower" />
+	<img src="http://loremflickr.com/240/160/flower" />
 </div>
 {% endexample %}
 
@@ -51,7 +51,7 @@ Banner 1130 x 450<br />
 
 {% example html %}
 <div class="img-medium">
-  <img src="http://loremflickr.com/500/335/flower" />
+	<img src="http://loremflickr.com/500/335/flower" />
 </div>
 {% endexample %}
 
@@ -59,7 +59,7 @@ Banner 1130 x 450<br />
 
 {% example html %}
 <div class="img-large">
-  <img src="http://loremflickr.com/850/400/flower" />
+	<img src="http://loremflickr.com/850/400/flower" />
 </div>
 {% endexample %}
 
@@ -67,7 +67,7 @@ Banner 1130 x 450<br />
 
 {% example html %}
 <div class="banner">
-  <img src="http://loremflickr.com/1130/420/flower" />
+	<img src="http://loremflickr.com/1130/420/flower" />
 </div>
 {% endexample %}
 

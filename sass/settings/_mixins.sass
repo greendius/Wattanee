@@ -2,13 +2,13 @@
 // -----
 // Clears floats via mixin (avoid using as a class).
 =clearfix
-  &:before
-    display: table
-    content: ""
-  &:after
-    display: table
-    clear: both
-    content: ""
+	&:before
+		display: table
+		content: ""
+	&:after
+		display: table
+		clear: both
+		content: ""
 
 // Creates a linear gradient background, from top to bottom.
 // -----
@@ -16,48 +16,48 @@
 // $end   - The color hex at the bottom.
 
 =gradient($start: #fafafa, $end: #eaeaea)
-  background-color: $end
-  background-image: -moz-linear-gradient($start, $end)
-  background-image: -webkit-linear-gradient($start, $end)
-  background-image: linear-gradient($start, $end)
-  background-repeat: repeat-x
+	background-color: $end
+	background-image: -moz-linear-gradient($start, $end)
+	background-image: -webkit-linear-gradient($start, $end)
+	background-image: linear-gradient($start, $end)
+	background-repeat: repeat-x
 
 // Text hiding for image based text replacement.
 // Higher performance than -9999px because it only renders
 // the size of the actual text, not a full 9999px box.
 =hide-text
-  overflow: hidden
-  text-indent: 100%
-  white-space: nowrap
+	overflow: hidden
+	text-indent: 100%
+	white-space: nowrap
 
 // Octicon bootstrap
 // -----
 // Quickly load the typography requirements for Octicons icon font.
 
 =icon-bootstrap($size)
-  font: normal normal #{$size}/1 "octicons"
-  display: inline-block
-  text-decoration: none
-  -webkit-font-smoothing: antialiased
+	font: normal normal #{$size}/1 "octicons"
+	display: inline-block
+	text-decoration: none
+	-webkit-font-smoothing: antialiased
 
 %visuallyhidden
-  margin: -1px
-  padding: 0
-  width: 1px
-  height: 1px
-  overflow: hidden
-  clip: rect(0 0 0 0)
-  clip: rect(0, 0, 0, 0)
-  position: absolute
+	margin: -1px
+	padding: 0
+	width: 1px
+	height: 1px
+	overflow: hidden
+	clip: rect(0 0 0 0)
+	clip: rect(0, 0, 0, 0)
+	position: absolute
 
 // Basic box shadow
 =box-shadow
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2)
-  box-shadow: 0 1px 2px rgba(0,0,0,.2)
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2)
+	box-shadow: 0 1px 2px rgba(0,0,0,.2)
 
 // WP box shadow
 =wp-box-shadow
-  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.7),0 1px 1px rgba(0,0,0,.1)
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.7),0 1px 1px rgba(0,0,0,.1)
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.7),0 1px 1px rgba(0,0,0,.1)
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.7),0 1px 1px rgba(0,0,0,.1)
 
 

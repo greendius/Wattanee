@@ -1,0 +1,22 @@
+<aside id="sidebar">
+
+	<header class="docs-header">
+		<a href="{{ site.baseurl }}/" class="masthead-logo">
+			วัดตานีนรสโมสร
+		</a>
+	</header>
+
+	{% if page.path contains 'preview' %}
+		{% include aside.html %}
+	{% elsif page.path contains 'styleguide' %}
+		{% include aside-styleguide.html %}
+	{% else %}
+		{% include aside.html %}
+	{% endif %}
+
+	<footer class="docs-footer">
+		Copyright Wattanee {{ site.time | date: '%Y' }}.<br>
+		Ver. {{ site.version }}.
+	</footer>
+
+</aside>

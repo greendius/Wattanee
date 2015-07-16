@@ -1,112 +1,122 @@
 // Media
 // =====
 .media
-  $media-gutter: 1.4em
-  $media-image-padding: 0.7em
-  $media-image-width: 75px
-  $media-image-height: auto
-  $media-background: lighten($action-color, 15%)
-  $media-image-vert-alignment: top
+	$media-gutter: 1.4em
+	$media-image-padding: 0.7em
+	$media-image-width: 75px
+	$media-image-height: auto
+	$media-background: lighten($action-color, 15%)
+	$media-image-vert-alignment: top
 
-  display: table
+	display: table
 
-  width: 100%
-  padding: 0
-  margin: 0
+	width: 100%
+	padding: 0
+	margin: 0
 
-  vertical-align: $media-image-vert-alignment
+	vertical-align: $media-image-vert-alignment
 
-  list-style: none
+	list-style: none
 
-  //outline: 1px dotted #ddd
+	//outline: 1px dotted #ddd
 
-  .media-items
-    display: table
-    width: 100%
-    padding: .2rem
-    //outline: 1px dotted yellow
+	.media-items
+		display: table
+		width: 100%
+		padding: .2rem
+		//outline: 1px dotted #ccc
 
-    > a
-      display: block
-
-
-    > a:hover
-      img
-        opacity: .8
-
-      .media-title
-        color: $action-color
+		> a
+			display: block
 
 
-  .media-image,
-  .media-body
-    display: table-cell
-    vertical-align: $media-image-vert-alignment
+		> a:hover
+			img
+				opacity: .8
 
-  .media-image
-    //width: 30%
-    //outline: 1px dotted aqua
+			.media-title
+				color: $action-color
 
-    > img
-      +transition(opacity .2s ease-in-out)
 
-      display: block
+	.media-image,
+	.media-body
+		display: table-cell
+		vertical-align: $media-image-vert-alignment
 
-      width: $media-image-width
-      height: $media-image-height
-      max-width: none
+	.media-image
+		width: 75px
+		height: 75px
+		//outline: 1px dotted aqua
 
-      opacity: 1
+		> img
+			+transition(opacity .2s ease-in-out)
 
-      //padding: $media-image-padding
-      //background: $media-background
+			display: block
 
-  .media-body
-    //width: 70%
-    padding-left: .8rem
-    //outline: 1px dotted orange
+			//width: $media-image-width
+			//height: $media-image-height
+			//max-width: none
+			width: 100%
+			height: auto
 
-  // TODO change font-size in RWD
-  .media-title,
-  .media-content
-    font-size: 13px
+			opacity: 1
 
-  .media-title
-    margin-bottom: .5em
-    font-weight: normal
-    color: $base-font-color
-    transition: color 0.2s linear
+			//padding: $media-image-padding
+			//background: $media-background
 
-  .media-content
-    font-style: normal
+	.media-body
+		width: auto
+		padding-left: .8rem
+		//outline: 1px dotted orange
+
+	// TODO change font-size in RWD
+	.media-title,
+	.media-content
+		font-size: 13px
+
+	.media-title
+		margin-bottom: .5em
+
+		font-weight: normal
+		line-height: 1.2
+
+		color: $base-font-color
+		transition: color 0.2s linear
+
+	.media-content
+		font-style: normal
 
 // TODO Set media grids and RWD
-// Media grid
 +susy-breakpoint($tablet, 12)
-  .media
+	.media
 
-    .media-title,
-    .media-content
-      font-size: 1em
+		.media-title,
+		.media-content
+			font-size: 1em
 
-  .media-grid
-    .media-items
-      +span(3 of 12)
-      //outline: 1px dotted orange
++susy-breakpoint($tablet, 12)
+	.media-grid
+		.media-items
+			+span(3 of 12)
+			display: block
+			//outline: 1px dashed red
 
-      &:last-child
-        margin-right: 0
+			&:nth-child(4n)
+				margin-right: 0
 
-    .media-image
-      display: block
-      width: 100%
-      //outline: 1px dotted red
+			.media-image
+				display: block
+				width: 260px
+				height: 140px
 
-    .media-body
-      display: block
-      width: 100%
-      padding: .5rem 0
-      //outline: 1px dotted blue
+				> img
+					width: 100%
+					height: auto
+
+			.media-title,
+			.media-content
+				+break
+				display: block
 
 
 

@@ -6,9 +6,9 @@ title: Alerts
 <!-- FIXME Need javascript for closing message -->
 
 <div class="alert-messages">
-  <div class="alert alert-warn">
-    <i class="icon fa fa-warning"></i>Javascript required
-  </div>
+	<div class="alert alert-warn">
+		<i class="icon fa fa-warning"></i>Javascript required
+	</div>
 </div>
 
 ## Contents
@@ -20,7 +20,7 @@ title: Alerts
 
 {% example html %}
 <div class="alert">
-  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+	พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
 </div>
 {% endexample %}
 
@@ -28,9 +28,9 @@ Add space from surrounding with `.alert-messages`
 
 {% example html %}
 <div class="alert-messages">
-  <div class="alert">
-    พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
-  </div>
+	<div class="alert">
+		พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+	</div>
 </div>
 {% endexample %}
 
@@ -40,7 +40,7 @@ Add space from surrounding with `.alert-messages`
 
 {% example html %}
 <div class="alert">
-  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+	พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
 </div>
 {% endexample %}
 
@@ -48,7 +48,7 @@ Add space from surrounding with `.alert-messages`
 
 {% example html %}
 <div class="alert alert-info">
-  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+	พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
 </div>
 {% endexample %}
 
@@ -56,14 +56,14 @@ Add space from surrounding with `.alert-messages`
 
 {% example html %}
 <div class="alert alert-warn">
-  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+	พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
 </div>
 {% endexample %}
 
 ### Error
 {% example html %}
 <div class="alert alert-error">
-  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+	พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
 </div>
 {% endexample %}
 
@@ -72,8 +72,8 @@ Add space from surrounding with `.alert-messages`
 
 {% example html %}
 <div class="alert alert-with-icon">
-  <span class="icon"><i class="fa fa-info-circle"></i></span>
-  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+	<span class="icon"><i class="fa fa-info-circle"></i></span>
+	พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
 </div>
 {% endexample %}
 
@@ -85,6 +85,6 @@ Add a JavaScript enabled (via Crema) dismiss (close) icon on the right of any fl
 {% example html %}
 <div class="alert">
 <span class="alert-close"><i class="fa fa-close"></i></span>
-  พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
+	พระสัมมาสัมพุทธเจ้า หรือ พระพุทธเจ้า เป็นพระสมัญญานามที่ใช้เรียกพระบรมศาสดาของศาสนาพุทธ
 </div>
 {% endexample %}

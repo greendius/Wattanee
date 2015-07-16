@@ -54,16 +54,16 @@ title: Buttons
 ## With icons
 {% example html %}
 <p>
-  <button class="btn btn-icon" type="button"><i class="icon fa fa-thumbs-o-up"></i>ชอบ</button>
-  <button class="btn btn-icon" type="button"><i class="icon fa fa-thumbs-o-down"></i>ไม่ชอบ</button>
+	<button class="btn btn-icon" type="button"><i class="icon fa fa-thumbs-o-up"></i>ชอบ</button>
+	<button class="btn btn-icon" type="button"><i class="icon fa fa-thumbs-o-down"></i>ไม่ชอบ</button>
 </p>
 <p>
-  <button class="btn btn-icon" type="button"><i class="icon fa fa-arrow-left"></i>ย้อนกลับ</button>
-  <button class="btn btn-icon" type="button">อ่านต่อ<i class="icon fa fa-arrow-right"></i></button>
+	<button class="btn btn-icon" type="button"><i class="icon fa fa-arrow-left"></i>ย้อนกลับ</button>
+	<button class="btn btn-icon" type="button">อ่านต่อ<i class="icon fa fa-arrow-right"></i></button>
 </p>
 <p>
-  <button class="btn btn-sm btn-icon" type="button"><i class="icon fa fa-arrow-left"></i>ย้อนกลับ</button>
-  <button class="btn btn-sm btn-icon" type="button">อ่านต่อ<i class="icon fa fa-arrow-right"></i></button>
+	<button class="btn btn-sm btn-icon" type="button"><i class="icon fa fa-arrow-left"></i>ย้อนกลับ</button>
+	<button class="btn btn-sm btn-icon" type="button">อ่านต่อ<i class="icon fa fa-arrow-right"></i></button>
 </p>
 {% endexample %}
 
@@ -72,7 +72,7 @@ title: Buttons
 
 {% example html %}
 <span class="hidden-text-expander">
-  <a href="#">&hellip;</a>
+	<a href="#">&hellip;</a>
 </span>
 {% endexample %}
 
