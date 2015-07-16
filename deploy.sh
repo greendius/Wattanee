@@ -9,7 +9,7 @@ default_username=${GIT_DEPLOY_USERNAME:-greendius@gmail.com}
 default_email=${GIT_DEPLOY_EMAIL:-greendius@gmail.com}
 
 #repository to deploy to. must be readable and writable.
-repo=${GIT_DEPLOY_REPO:-http://greendius.github.io/wattanee/}
+repo=${GIT_DEPLOY_REPO:-https://github.com/greendius/wattanee.git}
 
 # Parse arg flags
 while : ; do
