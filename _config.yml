@@ -6,8 +6,10 @@ kramdown:
 
 permalink: pretty
 source: docs
+
 baseurl: "http://greendius.github.io/wattanee"
 url: "http://greendius.github.io/wattanee" # the base hostname & protocol for your site
+
 version: 0.0.0
 
 sass:
